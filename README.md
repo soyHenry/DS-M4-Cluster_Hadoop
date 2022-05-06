@@ -7,7 +7,7 @@ sudo docker network create --driver=bridge hadoop
 ##### 2. Inicializar el cluster
 
 ```
-cd hadoop
+cd DS-M4-Cluster_Hadoop
 sudo ./start-container.sh
 ```
 
@@ -93,6 +93,5 @@ hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/sources/hadoop-mapreduce-examples
 ```
 hdfs dfs -cat output/part-r-00000
 ```
-
 
 Inspirado en https://github.com/kiwenlau/hadoop-cluster-docker
